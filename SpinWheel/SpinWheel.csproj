@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EAB433F0-CF86-4788-84BC-4BF30024D5C0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SpinWheel</RootNamespace>
+    <AssemblyName>SpinWheel</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="difficultyScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="difficultyScreen.Designer.cs">
+      <DependentUpon>difficultyScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gameScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gameScreen.Designer.cs">
+      <DependentUpon>gameScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="difficultyScreen.resx">
+      <DependentUpon>difficultyScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gameScreen.resx">
+      <DependentUpon>gameScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cloud1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel39.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel44.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel46.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel47.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel49.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel53.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel54.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel55.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel56.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel57.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel59.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel62.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel63.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel65.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel66.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel67.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel68.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel69.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel70.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel73.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel74.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel75.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel76.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel77.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel78.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel79.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel81.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel82.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel83.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel84.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel85.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel86.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel87.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel88.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheel89.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indicator2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
