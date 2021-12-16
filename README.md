@@ -1,4 +1,4 @@
-# SpinWheel (Wheel of Fortune "Çarkıfelek" replica)
+# SpinWheel  (Wheel of Fortune "Çarkıfelek" replica)
 
 **INTRODUCTION**
 
