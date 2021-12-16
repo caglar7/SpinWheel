@@ -11,46 +11,7 @@ There are multiple forms in the game (3 in total) and these two above are create
 ## **GAMEPLAY**
 When the difficulty is selected on the second screen, the same process executed and another form object is created for game screen. When the game is started, there will be an animation at first then puzzles will be shown with their types. Throughout the game, we will be using “GUESS” and “SPIN”  to solve the puzzles.
 
-<img src="Images/StartScreen.png" height 250 > <img src="Images/WheelScreen.png" height 250 >
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img src="Images/StartScreen.png" height="250" > <img src="Images/WheelScreen.png" height="250" >
 
 
 
