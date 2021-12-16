@@ -13,6 +13,10 @@ When the difficulty is selected on the second screen, the same process executed 
 
 <img src="Images/StartScreen.png" height="250" > <img src="Images/WheelScreen.png" height="250" >
 
+## **SPIN AND SOLVING PUZZLES**
+Since Windows Forms applications only have 90, 180 and 270 degrees of rotation for the PictureBoxes, I first tried to overwrite the Paint event in C# but that didn’t work for me. The image wasn’t rotating properly and smoothly. Then I tried a longer solution that I used photoshop to create 90 images with 1 degrees apart from each other. After loading all the images to a PictureBox array and using this array, I obtained a smoother rotation by changing the visibilities one by one. 
 
+After getting the output from the spin, it comes back to the puzzle screen with an animation. Then the “LETTER” button will be visible and we click on it to see the letters. After that, selected letter will be displayed on the screen if there is any in the current puzzle.
 
+<img src="Images/StartScreen.png" height="250" > <img src="Images/Guessing.png" height="250" >
 
