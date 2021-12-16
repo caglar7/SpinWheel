@@ -13,6 +13,23 @@ When the difficulty is selected on the second screen, the same process executed 
 
 <img src="Images/StartScreen.png" height 250 > <img src="Images/WheelScreen.png" height 250 >
 
-heyy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
