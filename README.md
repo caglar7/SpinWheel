@@ -1,4 +1,4 @@
 # SpinWheel
-Simple Windows forms game which is replica of Wheel of Fortune show
 
-there will be info about this winform project here
+Spin Wheel is a Windows Forms Application puzzle game. In the game, I had to create solutions to make the items move, rotate or change their visibility depending on the user input. These items are PictureBoxes, Buttons, TextBoxes or Labels. To add functionality to these items, certain methods are used multiple times in Timers. There are Timers for each specific function of the game. These are the basic structures of this game project. 
+
