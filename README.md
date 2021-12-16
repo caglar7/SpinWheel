@@ -20,3 +20,5 @@ After getting the output from the spin, it comes back to the puzzle screen with 
 
 <img src="Images/StartScreen.png" height="250" > <img src="Images/Guessing.png" height="250" >
 
+Note: Puzzles are in Turkish even though UI is in English.
+
